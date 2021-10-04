@@ -1,0 +1,14 @@
+name: gds_ya
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.1.1
+  - conda-forge::r-circlize
+  - conda-forge::r-dplyr
+  - conda-forge::r-ggplot2
+  - r-ggpubr
+  - conda-forge::r-gplots
+  - conda-forge::r-pheatmap
+  - r-rcolorbrewer
