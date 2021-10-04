@@ -128,8 +128,7 @@ on the order of 5 or 10 minutes or so), since it is installing/compiling
 container by clicking the badge below and looking at the log.
 
 You can view the binder container here:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BarryDigby/YA/binder)
-or at: [https://mybinder.org/v2/gh/BarryDigby/YA/binder](https://mybinder.org/v2/gh/BarryDigby/YA/binder).
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BarryDigby/YA/binder) or at: [https://mybinder.org/v2/gh/BarryDigby/YA/binder](https://mybinder.org/v2/gh/BarryDigby/YA/binder).
 
 - you can launch an Rstudio instance to test the container by using the "new"
   tab in the top right corner, and selecting 'Rstudio'. This is super helpful if
