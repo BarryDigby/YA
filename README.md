@@ -13,7 +13,7 @@ might be ways to make it more elegant._
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ines/courser-starter-r)
 
-[![](https://user-images.githubusercontent.com/13643239/56341448-68fe9380-61b5-11e9-816f-5c71ae71b94f.png)](https://course-starter-r.netlify.com)
+[![alt text](https://user-images.githubusercontent.com/13643239/56341448-68fe9380-61b5-11e9-816f-5c71ae71b94f.png)](https://course-starter-r.netlify.com)
 
 ## ✅ Quickstart
 
@@ -97,7 +97,7 @@ are received from the Binder container.
 There are two branches of this repo, which are used for different tasks:
 
 - **master** - this is what the course is served out of via netlify:
-  http://r-bootcamp.netlify.com - any changes to exercises in this branch will
+  [http://r-bootcamp.netlify.com](http://r-bootcamp.netlify.com) - any changes to exercises in this branch will
   show up on the netlify page. The netlify page uses a JavaScript framework
   called Gatsby to build the pages. Gatsby submits code to binder and receives
   the output. It also handles the code checking. The parts of the repo that are
@@ -128,8 +128,7 @@ on the order of 5 or 10 minutes or so), since it is installing/compiling
 container by clicking the badge below and looking at the log.
 
 You can view the binder container here:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BarryDigby/YA/binder)
-or at: https://mybinder.org/v2/gh/BarryDigby/YA/binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BarryDigby/YA/binder) or at: [https://mybinder.org/v2/gh/BarryDigby/YA/binder](https://mybinder.org/v2/gh/BarryDigby/YA/binder).
 
 - you can launch an Rstudio instance to test the container by using the "new"
   tab in the top right corner, and selecting 'Rstudio'. This is super helpful if
@@ -148,7 +147,7 @@ Currently, `tidyverse` is installed in the binder container.
 If you want to access datasets in the data folder, you can always refer to this
 folder as `data/`. For example, to use `data/pets.csv`:
 
-```
+```console
 pets <- read.csv("data/pets.csv")
 ```
 
@@ -162,7 +161,7 @@ made for that: [`decampr`](http://github.com/laderast/decampr). It will scan
 your repository and attempt to extract exercise instructions, quizzes, exercise
 code, and solutions and write them to the appropriate directory for your
 project. For more info, please check out the `decampr` repo:
-http://github.com/laderast/decampr
+[http://github.com/laderast/decampr](http://github.com/laderast/decampr).
 
 ## 🎨 Customization
 

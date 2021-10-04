@@ -18,6 +18,6 @@ some_var <- ____
 
 library(ggpubr)
 
-ggscatterhist(mtcars, x=gear, y=cyl)
+ggboxplot(mtcars, x="am", y="gear")
 
 ## can they input their own stuff?! 
